@@ -1,0 +1,13 @@
+{
+  "name": "node-gstreamer",
+  "version": "0.0.1",
+  "description": "node.js wrapper for GStreamer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test acdcbib.ogg",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Calvin Mann",
+  "license": "GPL-3.0",
+  "gypfile": true
+}
